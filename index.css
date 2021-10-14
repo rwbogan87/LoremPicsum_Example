@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+img {
+    /* !easy way to center the image in our div */
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+
+.title {
+    /* text-decoration: none; */
+    font-size: 1.5em;
+    color: black;
+    /* width: fit-content; */
+}
+
+.title :hover {
+    color: red;
+}
+
+.divFrame {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border: 5px solid green;
+    padding: 25px;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section :hover {
+    background-color: rgb(192, 191, 191);
+    cursor: pointer;
+}
+
+.url {
+    text-decoration: none;
+    color: black;
+}
